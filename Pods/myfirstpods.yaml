@@ -3,6 +3,7 @@ kind: Pod
 metadata:
   name: My-First-Pod
 spec:
-- name: My-first-container
-  image: nginx
-  
+  containers:
+  - name: My-first-container
+    image: nginx
+
