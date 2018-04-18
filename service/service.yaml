@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-svc
+  labels:
+    app: nginx
+    #app: jenkins
+    #app: mysql
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: nginx
+    #app: jenkins
+    #app: mysql
