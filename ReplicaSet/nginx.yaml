@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: ReplicaSet
-metadate:
+metadata:
   name: my-nginx-replicaset
 spec:
   replicas: 2
