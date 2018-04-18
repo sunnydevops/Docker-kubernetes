@@ -14,9 +14,9 @@ spec:
       labels:
         project: my-project
         var: 0.1
-spec:
-containers:
-- name: my-nginx-container
-  image: nginx
-  ports:
-  - containerPort: 80
+   spec:
+   containers:
+   - name: my-nginx-container
+    image: nginx
+    ports:
+    - containerPort: 80
