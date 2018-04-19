@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: my-first-deployment
 spec:
-  replicas: 2
+  replicas: 5
   minReadySeconds: 2
   strategy:
     type: RollingUpdate
